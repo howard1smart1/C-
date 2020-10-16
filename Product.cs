@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -27,8 +27,8 @@ namespace Products
 
             while (n > 0)
             {
-                prod = prod * (n % 10);
-                n = n / 10;
+                prod *= (n % 10);
+                n /= 10;
             }
 
             Console.Write("The Product is= " + prod);
